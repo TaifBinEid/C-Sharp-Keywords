@@ -32,7 +32,7 @@
 
 <div dir =ltr>
 
-``` 
+```C#
 public abstract class Coffe   
 {
     public abstract void PrepareCoffee(int i);
@@ -43,7 +43,7 @@ public abstract class Coffe
 
 * قد تحدد فئات  **abstract** أيضًا طرقًا  **abstract**. يتم تحقيق ذلك عن طريق إضافة  الكلمة الرئيسية **abstract** قبل النوع إرجاع العملية.
 
-* العمليات  **abstract** ليس لها تنفيذ
+* العمليات  **abstract** ليس لها تنفيذ في الفئة الأساسية base class
 * عندما ترث فئة  **abstract** طريقة افتراضية من فئة أساسية ، يمكن للفئة abstract تجاوز الطريقة الافتراضية بطريقة  **abstract** ، دعنا نرى المثال:
 
 
@@ -63,7 +63,7 @@ public abstract class Coffe
   >
   <div dir =ltr> 
 
-  ```
+  ```C#
 public class Coffe
 {
     public virtual void PrepareCoffee(string typeOfCoffe)

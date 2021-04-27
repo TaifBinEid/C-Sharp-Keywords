@@ -28,7 +28,7 @@
 ## بناء كلمة **Syntax of in**
  <div dir=ltr>
 
-```
+```C#
 in string word;
 ```
 
@@ -51,7 +51,7 @@ in string word;
 
 <div dir=ltr>
 
-```
+```C#
 int readonlyArgument = 44;
 InArgExample(readonlyArgument);
 Console.WriteLine(readonlyArgument);     //  القيمه لازالت 44

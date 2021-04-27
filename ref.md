@@ -60,7 +60,7 @@ ref string word;
 
 <div dir=ltr>
 
-```
+```C#
 
 using System;
   
@@ -88,9 +88,13 @@ class Tuwaiq {
             Console.WriteLine("Hello!! C#");
         }
   
-        // إسناد القيمة الجديدة للمعامل
+        // إسناد قيمه جديده للمعامل
       
         str1 = "Welcome in tuwaiq bootcamp :)";
+
+        //output
+         // Hello!! C#
+         //Welcome in tuwaiq bootcamp :)
     }
 }
 ```

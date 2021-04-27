@@ -1,36 +1,39 @@
-# **base** keyword 
+<div dir=rtl>
 
-##  <p style="color: #fed049">Outline </p>
+#  الكلمة المفتاحية **base**  
 
-  * Meaning of the **base** keyword 
-  * Purpose of the **base** keyword 
-  * Sysntax
-  * Example 
+##  <p style="color: #c67ace">الفهرس </p>
 
- 
- &nbsp;
-
-
-  ## Meaning of the **base** keyword 
- Using the base keyword, we can :
- > * Call a ***base*** class method that has been overridden by another method in the derived class.
-
-> * and we can specify which ***base*** class constructor should be called while creating an instance of the derived class.
+  *  استخدامات كلمة  **base** 
+  * بناء كلمة **Syntax of base** 
+  *  لماذا نستخدم  كلمة **base** ؟
+  * مثال  
 
  
  &nbsp;
 
-##   Purpose of the **base** keyword 
- to acces ***base*** class members such as properties, methods, etc., in the derived class.
 
+  ##  استخدامات  كلمة  **base** 
+  باستخدام الكلمة الأساسية ، يمكننا:
+ * الاستدعاء  من class  method الذي تم وراثته بواسطة ***base***  في الفئة المشتقة.
+
+ * يمكن تحديد أي **base** class  منشئ والذي يجب استدعاؤه أثناء إنشاء instance للفئة (class )المشتقة.
+ &nbsp;
+
+
+## لماذا نستخدم  كلمة **base** ؟
+ للوصول إلى أعضاء الفئه class member مثل الخصائص والعمليات وما إلى ذلك ، في الفئة المشتقة.
 
 
   
 
  &nbsp;
 
-## Sysntax  and example of **base** keyword  
- ```
+# <p style="color: #c67ace">مثال </p>  
+هذا المثال يوضح القواعد  او syntax لل **base**
+ <div dir=ltr>
+
+```C#
  public class Person
 {
     protected string id = "444-55-9999";
@@ -43,17 +46,29 @@
     }
 }
 class Student : Person
-{
+{// نلاحظ هناان كلاس الطالب يرث من الطالب لذلك بإمكانه الوصول الى الخصائص والعمليات //
+
     public string acadmicNo = "437004866";
     public int leve = 8 ; 
     public string major = "IT";
     public override void GetInfo()
     {
-        // Here i use base to call method GetInfo by parent or super class .
+        //هنا تم استخدام  base
+        //    لإستدعاء عملية GetInfo من  
+        // خلال كلاس الأب.
 
         base.GetInfo();
         Console.WriteLine("Student Acadmic Number : {0} Level : {1} Major {2}",  acadmicNo  , level, major );
     }
 }
- ```
 
+```
+
+
+
+</div> 
+
+
+
+
+ </div>

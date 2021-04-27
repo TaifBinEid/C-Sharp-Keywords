@@ -1,44 +1,62 @@
-# **class** keyword 
+<div dir=rtl>
 
-##  <p style="color: #ff79cd">Outline </p>
+#  الكلمة المفتاحية **class**  
 
-  * Meaning of the **class** keyword 
-  * Purpose of the **class** keyword 
-  * Sysntax
-  * Example 
- 
- &nbsp;
+##  <p style="color: #c67ace">الفهرس </p>
 
-
-  ## Meaning of the **class** keyword 
-a ***class*** is a template definition of the methods and variables in a particular kind of object . Thus, an object is a specific instance of a class; it contains real values instead of variables.
+  *  معنى كلمة  **class** 
+  * بناء كلمة **Syntax of class** 
+  *   الغرض  من إستخدام  كلمة **class** ؟
+  * مثال  
 
  
  &nbsp;
 
-## The Purpose of an **class** keyword 
- A ***class*** enables you to create your custom types by grouping variables of other types, methods, and event , then you can make object ,  it's also possible to have many objects of the same kind that share characteristics: rectangles, employee records, video clips, and so on.
 
+  ##  معنى كلمة  **class** 
+
+***class*** هي تعريف قالب للعمليات والمتغيرات في نوع معين من الكائنات. وبالتالي ، فإن الكائن هو نسخه محددة للفئة  ***class*** , حيث يحتوي على قيم حقيقية بدلاً من المتغيرات.
+ 
+ &nbsp;
+
+
+## الغرض  من إستخدام  كلمة **class** ؟
+
+ يمكنك ***class*** من إنشاء أنواعك المخصصة عن طريق تجميع متغيرات من أنواع وعمليات وأحداث أخرى ، كما يمكنك إنشاء كائن ، ومن الممكن أيضًا أن يكون لديك العديد من الكائنات من نفس النوع التي تشترك في الخصائص: المستطيلات ، تسجيلات الموظفين ومقاطع الفيديو وما إلى ذلك.
 
   
 
  &nbsp;
 
-## Sysntax of **class** keyword 
-* In ***C#***, a **class** can be defined by using the **class** keyword.
-```
+## بناء كلمة **Syntax of class**
+ <div dir=ltr>
+
+```C#
 public class MyClass
+
 ```
 
 
+
+</div> 
+
+
+
+
+
+
  &nbsp;
 
-## <p style="color: #ff79cd">Example  </p> 
+# <p style="color: #c67ace">مثال </p>  
 
- &nbsp;
- This example Illustrates  how to defined **class** and filed 
-``` 
- public class Employee{
+  &nbsp;
+
+> 
+
+<div dir=ltr>
+
+```C#
+public class Employee{
 
 private int _empID;
 private string _loginName;
@@ -46,8 +64,7 @@ private string _password;
 private string _department;
 private string _name;
 
-
-// this is method show you how to use attributes of class in method.
+//   توضح لك هذه العملية  كيف يمكن استخدام المتغيرات في العمليات //method
 
 public void Login(string loginName, string password)
 {
@@ -71,5 +88,12 @@ public void Login(string loginName, string password)
 
  }
 
-```
 
+```
+</div>
+
+
+> نلاحظ في هذا المثال أننا أنشأنا كلاس موظفين حيث يجمع فيه جميع البيانات والعمليات المشتركة بينهم بعد ذلك يمكن إنشاء كائن object  
+وكل كائن يحمل بياناته الخاصه به ويقوم بتنفيذ العمليات حسب طريقته . 
+
+ </div>

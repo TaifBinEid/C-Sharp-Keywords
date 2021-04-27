@@ -1,45 +1,61 @@
-# **as** keyword 
+<div dir=rtl>
 
-##  <p style="color: #aa2ee6">Outline </p>
+#  الكلمة المفتاحية **as**  
 
-  * Meaning of the **as** keyword 
-  *  Why we use **as** keyword ?
-  * Sysntax
-  * Example 
+##  <p style="color: #c67ace">الفهرس </p>
 
- 
- &nbsp;
-
-
-  ## Meaning of the **as** keyword 
- The ***as*** operator is used to perform conversion between compatible reference types or Nullable types.
+  *  معنى كلمة  **as** 
+  * بناء كلمة **Syntax of as** 
+  *  لماذا نستخدم  كلمة **as** ؟
+  * مثال  
 
  
  &nbsp;
 
-##   Why we use **as** keyword ?
- to returns the object when they are compatible with the given type and return **null** if the conversion is not possible.
+
+  ##  معنى كلمة  **as** 
+يتم استخدام عامل التشغيل ***as*** لإجراء التحويل بين أنواع المراجع المتوافقة أو الأنواع Nullable.
+ 
+ &nbsp;
 
 
+## لماذا نستخدم  كلمة **as** ؟
+ لإرجاع الكائن عندما يكون متوافقًا مع النوع المحدد وإرجاع **null** إذا لم يكن التحويل ممكنًا.
 
 
   
 
  &nbsp;
 
-## Sysntax of **as** keyword 
- ```
+## بناء كلمة **Syntax of as**
+ <div dir=ltr>
+
+```C#
+
  expression as type
- ```
+```
+
+
+
+</div> 
+
+
+
+
 
 
  &nbsp;
 
-## <p style="color: #aa2ee6">Example  </p> 
+# <p style="color: #c67ace">مثال </p>  
 
+  &nbsp;
 
-  > This example Illustrates  how to use **as**  operator
-```
+> يوضح هذا المثال كيفية استخدام **as** 
+
+<div dir=ltr>
+
+```C#
+
 class Test {
       
  
@@ -51,15 +67,21 @@ class Test {
         
         object obj1 = value1;
           
-        // now try it to cast to a string
+        // هنا تم تحويل الاوبجكت إلى string 
         string value2 = obj1 as string;
           
-        // checking Successfully cast or not
+        // للتأكد في حال تم التحويل او لا 
         if(value2 != null)
         {
             Console.WriteLine("Cast done successfully ");
         }
+        // هنا ستتم طباعه هذه  الجمله لان نوع الاوبجكت اصبح string 
+        // وتم اسناد قيمته الى value2
           
 }
- ```
-  
+
+```
+
+</div>
+
+ </div>

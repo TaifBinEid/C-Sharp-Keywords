@@ -31,7 +31,7 @@
 ## بناء كلمة **Syntax of break**
  <div dir=ltr>
 
-```
+```C#
 break;
 ```
 

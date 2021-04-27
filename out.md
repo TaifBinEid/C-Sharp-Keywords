@@ -31,7 +31,7 @@
 ## بناء كلمة **Syntax of out**
  <div dir=ltr>
 
-```
+```C#
 out int number ;
 ```
 

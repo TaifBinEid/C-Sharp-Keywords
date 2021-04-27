@@ -30,7 +30,7 @@
 ## بناء كلمة **Syntax of contine**
  <div dir=ltr>
 
-```
+```C#
 continue ;
 ```
 

@@ -1,55 +1,65 @@
-# **goto** keyword 
+<div dir=rtl>
 
-##  <p style="color: #8ab6d6">Outline </p>
+#  الكلمة المفتاحية **goto**  
 
-  * Meaning of the **goto** keyword 
-  * purpose of the **goto** keyword 
-  * Sysntax
-  * Example 
-  * Pros of goto
-  * Cons of goto
- 
- &nbsp;
+##  <p style="color: #c67ace">الفهرس </p>
 
-
-  ## Meaning of the **goto** keyword 
- is a statement found in many computer programming languages. It performs a one-way transfer of control to another line of code.
+  *  معنى كلمة  **goto** 
+  * بناء كلمة **Syntax of goto** 
+  *   الغرض  من إستخدام  كلمة **goto** ؟
+  * مثال  
 
  
  &nbsp;
 
-## The purpose of an **goto** keyword 
- * The ***goto*** statement transfers the program control directly to a labeled statement , can be used with witch-case label or the default label in a switch statement.
 
-* The ***goto*** statement is also useful to get out of deeply nested loops.
+  ##  معنى كلمة  **goto** 
+
+***goto*** موجود في العديد من لغات برمجة الكمبيوتر. ينقل التحكم في اتجاه واحد من سطر إلى سطر آخر في التعليمات البرمجية.
 
 
-  
 
  &nbsp;
 
-## Sysntax of **goto** keyword 
+
+## الغرض  من إستخدام  كلمة **goto** ؟
+ * تنقل الكلمة  **goto** التحكم في البرنامج مباشرة في عبارة معنونة label، كما تستخدم في حالات case  الخاصه بي switch .
+
+ *  **goto** مفيد أيضًا في الخروج من الحلقات  loop المتداخلة بعمق.
+
+
+ &nbsp;
+
+## بناء كلمة **Syntax of goto**
+
 ![Sysntax goto](https://cdn.tutorialgateway.org/wp-content/uploads/Goto-Syntax.jpg)
 
-
-
- &nbsp;
-
-## <p style="color: #8ab6d6">Example  </p> 
-
-
-  > This example Illustrates  how to use **goto** 
-
-![Sysntax goto](https://www.embedded.com/wp-content/uploads/media-1179594-jb20130305listing1.png
-)
  
+>قد تكون  **goto** للأمام او للخلف وذلك يعتمد على مكان label  ويمكن ربط  **goto** بشرط اذا تحقق يذهب الى label ويتجاهل تنفيذ التعليمات البرمجية المتبقية .
+
   &nbsp;
 
-## <p style="color: #29bb89">Pros of goto </p>
-* ***goto*** can be useful sometimes. For example: to break from nested loops.
+ &nbsp;
+
+
+
+
+
 
  &nbsp;
 
-## <p style="color: #ff8303">Cons of goto </p>
-* The use of ***goto*** statement may lead to code that is buggy and hard to follow.
-* The ***goto*** statement allows you to do bad stuff such as jump out of the scope.
+# <p style="color: #c67ace">مثال </p>  
+ 
+![Sysntax goto](https://www.embedded.com/wp-content/uploads/media-1179594-jb20130305listing1.png
+)
+>  مثال يوضح فكرة **goto**  ، نلاحظ هنا ان قد تصبح لدينا حلقه غير منتهيه infinite  loop  وذلك لان count
+ يظل ثابت على صفر ولم يتم تحديث قيمته ، هذا يعتبر واحد من عيوب **goto**
+
+ > أيضا من عيوب **goto** قد يقفز خارج النطاق .
+
+
+
+  &nbsp;
+
+
+ </div>
