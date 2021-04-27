@@ -1,65 +1,91 @@
-# **abstract** keyword 
+<div dir=rtl>
 
-##  <p style="color:yellow">Outline </p>
+#  الكلمة المفتاحية **abstract**  
 
-  * Meaning of the **abstract** keyword 
-  * purpose of the **abstract** keyword 
-  * Sysntax
-  * Example 
- 
- &nbsp;
+##  <p style="color: #ff005c">الفهرس </p>
 
-
-  ## Meaning of the **abstract** keyword 
-enables you to create classes and class members (*Fields and Operations*) that are incomplete and must be implemented in a derived class or sub class.
+  *  معنى كلمة  **abstract** 
+  * الغرض من استعمال كلمة **abstract** 
+  * بناء كلمة **Syntax of abstract** 
+  * مثال  
 
  
  &nbsp;
 
-## The purpose of an **abstract** class
- is to provide a common definition of a base class that multiple derived classes can share , For example, the class of coffee, we find that coffee has many types, but they share some characteristics and operations, and the method of preparing this process may be different.
+
+  ##  معنى كلمة  **abstract** 
+يمكّنك من إنشاء فئات وأعضاء فئة ( **الحقول والعمليات ** ) غير مكتملة ويجب تنفيذها في فئة مشتقة أو فئة فرعية.
+ &nbsp;
+
+##  الغرض من استعمال كلمة **abstract** 
+هو تقديم تعريف مشترك للفئة الأساسية التي يمكن للفئات المشتقة المتعددة أن تشترك فيها ، على سبيل المثال ، فئة القهوة ، نجد أن للقهوة أنواعًا عديدة ، لكنها تشترك في بعض الخصائص والعمليات ، وقد تكون طريقة تحضير هذه العملية مختلف.
+
+
+  
 
  &nbsp;
 
-## Sysntax of **abstract** keyword
-* Classes can be declared as ***abstract*** by putting the keyword ***abstract*** before the class definition. 
+## بناء كلمة **Syntax of abstract**
 
-* Abstract classes may also define abstract methods. This is accomplished by adding the ***keyword abstract*** before the **return** type of the method.
 
-* Abstract methods have no implementation
-* When an abstract class inherits a virtual method from a base class, the abstract class can override the virtual method with an abstract method ,let's see example :
+> يمكن إعلان الفئات على أنها ***abstract***  بوضع الكلمة الرئيسية ***abstract***  class قبل تعريف الفئة class.
+
+<div dir =ltr>
+
+``` 
+public abstract class Coffe   
+{
+    public abstract void PrepareCoffee(int i);
+} 
+
 ```
+</div>
+
+* قد تحدد فئات  **abstract** أيضًا طرقًا  **abstract**. يتم تحقيق ذلك عن طريق إضافة  الكلمة الرئيسية **abstract** قبل النوع إرجاع العملية.
+
+* العمليات  **abstract** ليس لها تنفيذ
+* عندما ترث فئة  **abstract** طريقة افتراضية من فئة أساسية ، يمكن للفئة abstract تجاوز الطريقة الافتراضية بطريقة  **abstract** ، دعنا نرى المثال:
+
+
+> 
+
+
+
+
+
+
+ &nbsp;
+
+# <p style="color: #ff005c">مثال </p>  
+
+  &nbsp;
+
+  >
+  <div dir =ltr> 
+
+  ```
 public class Coffe
 {
     public virtual void PrepareCoffee(string typeOfCoffe)
     {
-        // Original implementation.
+        // التنفيذ الاصلي
     }
 }
 
 public abstract class FlatWhite : Coffe
 {
     public abstract override void PrepareCoffee(string typeOfCoffe);
-}
+} // هنا التنفيذ يعتمد على من سيرث الابستراكت كلاس
 
 public class Latte : FlatWhite 
 {
     public override void PrepareCoffee(string typeOfCoffe)
     {
-        // New implementation.
+        // التنفيذ الجديد
     }
 }
 ```
  &nbsp;
 
-## <p style="color:yellow">Example </p>
-
- &nbsp;
- This example Illustrates declared as abstract class and abstract method.
-``` 
-public abstract class Coffe   
-{
-    public abstract void PrepareCoffee(int i);
-} 
-```
-
+ 
+ </div>
