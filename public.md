@@ -54,7 +54,7 @@ public static void Print() // وهنا تم تطبيقة على عملية
  
 
 
-![Sysntax goto]( https://dotnettutorials.net/wp-content/uploads/2020/05/word-image-48.png)
+![Sysntax public]( https://dotnettutorials.net/wp-content/uploads/2020/05/word-image-48.png)
 
 
 كما هنا بالمثال يمكن الوصول إلى داله IsEmpty()    من خارج الفئه class     لأنها public
