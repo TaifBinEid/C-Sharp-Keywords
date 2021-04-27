@@ -1,3 +1,8 @@
-# README 
 
-### In this file, you will get a summary and a simple explanation of the keywords of the ***C#*** language with examples.
+<div dir=ltr>
+
+
+في هذا الريبو ، سوف تحصل على ملخص وشرح بسيط للكلمات الرئيسية للغة  ***C#***  مع أمثلة.
+
+
+</div>
