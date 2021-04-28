@@ -4,21 +4,21 @@
 
 ##  <p style="color: #fea82f">الفهرس </p>
 
-  *  معنى كلمة  **break** 
-  * الغرض من استعمال كلمة **break** 
-  * بناء كلمة **Syntax of break** 
-  * مثال  
+  *  مفهوم | Concept   للكلمة **break** 
+  * الغرض | Purpose من إستخدام كلمة **break** 
+  * البناء | Syntax  للكلمة **break** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **break** 
+  ## مفهوم | Concept   للكلمة **break** 
 عندما يتم استخدام كلمة **break**  داخل الحلقة ، يتم إنهاء الحلقة على الفور ويستأنف التحكم في البرنامج في العبارة التالية التي تلي الحلقة.
  
  &nbsp;
 
-##  الغرض من استعمال كلمة **break** 
+##  الغرض | Purpose من إستخدام كلمة **break** 
  الغرض من استخدام **break**  هو "للقفز" أو "إنهاء"  حالة من حالات دالة الشرطية switch ، كما أن **break**  تستخدم في القفز  للخروج من  الحلقه سواء كانت for او while .
 
 
@@ -28,7 +28,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of break**
+## البناء | Syntax  للكلمة **break** 
  <div dir=ltr>
 
 ```C#
@@ -48,7 +48,7 @@ break;
 
  &nbsp;
 
-# <p style="color: #fea82f">مثال </p>  
+# <p style="color: #fea82f">مثال | Example  </p>  
 
   &nbsp;
   > ![example continue](https://cdn.educba.com/academy/wp-content/uploads/2019/09/c3.png

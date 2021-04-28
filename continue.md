@@ -4,21 +4,21 @@
 
 ##  <p style="color: #ff005c">الفهرس </p>
 
-  *  معنى كلمة  **contine** 
-  * الغرض من استعمال كلمة **contine** 
-  * بناء كلمة **Syntax of contine** 
-  * مثال  
+  *   مفهوم | Concept   للكلمة  **contine** 
+  * الغرض | Purpose من إستخدام كلمة**contine** 
+  *  البناء | Syntax  للكلمة **contine** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **contine** 
+  ##   الغرض من استعمال كلمة **contine** 
  تعمل **contine**   في ***C #***  إلى حد ما مثل كلمة **break**. بدلاً من فرض الإنهاء ، تفرض المتابعة تنفيذ التكرار التالي للحلقة ، وتتخطى أي رمز بينهما.
  
  &nbsp;
 
-##  الغرض من استعمال كلمة **contine** 
+##  الغرض | Purpose من إستخدام كلمة**contine** 
 تستخدم **contine** لإنهاء التكرار الحالي في حلقة for (أو حلقة while) ، ويستمر في التكرارات التالية.
 
 
@@ -27,7 +27,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of contine**
+##  البناء | Syntax  للكلمة **contine** 
  <div dir=ltr>
 
 ```C#
@@ -47,7 +47,7 @@ continue ;
 
  &nbsp;
 
-# <p style="color: #ff005c">مثال </p>  
+# <p style="color: #ff005c">مثال | Example  </p>  
 
   &nbsp;
   > ![example continue](https://cdn.tutorialgateway.org/wp-content/uploads/C-Continue-Statement-2.png

@@ -4,16 +4,16 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **goto** 
-  * بناء كلمة **Syntax of goto** 
-  *   الغرض  من إستخدام  كلمة **goto** ؟
-  * مثال  
+  *  مفهوم | Concept   للكلمة  **goto** 
+  *   الغرض | Purpose من إستخدام كلمة **goto** ؟
+  * البناء | Syntax  للكلمة* **goto** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **goto** 
+  ##  مفهوم | Concept   للكلمة  **goto** 
 
 ***goto*** موجود في العديد من لغات برمجة الكمبيوتر. ينقل التحكم في اتجاه واحد من سطر إلى سطر آخر في التعليمات البرمجية.
 
@@ -22,7 +22,7 @@
  &nbsp;
 
 
-## الغرض  من إستخدام  كلمة **goto** ؟
+##      الغرض | Purpose من إستخدام كلمة **goto** ؟
  * تنقل الكلمة  **goto** التحكم في البرنامج مباشرة في عبارة معنونة label، كما تستخدم في حالات case  الخاصه بي switch .
 
  *  **goto** مفيد أيضًا في الخروج من الحلقات  loop المتداخلة بعمق.
@@ -30,7 +30,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of goto**
+##  البناء | Syntax  للكلمة* **goto** 
 
 ![Sysntax goto](https://cdn.tutorialgateway.org/wp-content/uploads/Goto-Syntax.jpg)
 
@@ -48,7 +48,7 @@
 
  &nbsp;
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example  </p>  
  
 ![Sysntax goto](https://www.embedded.com/wp-content/uploads/media-1179594-jb20130305listing1.png
 )

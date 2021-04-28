@@ -4,29 +4,29 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **delegate** 
-  * بناء كلمة **Syntax of delegate** 
-  *   الغرض  من إستخدام  كلمة **delegate** ؟
-  * مثال  
+  *  مفهوم | Concept   للكلمة **delegate**
+  *  الغرض | Purpose من إستخدام كلمة **delegate** ؟ 
+  *  البناء | Syntax  للكلمة **delegate** 
+  * مثال | Example
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **delegate** 
+  ##  مفهوم | Concept   للكلمة **delegate** 
 هو متغير نوع مرجعي  **reference type** يحمل المرجع أو المؤشر على عملية. يمكن تغيير المرجع في وقت التشغيل.
 
  &nbsp;
 
 
-## الغرض  من إستخدام  كلمة **delegate** ؟
+##  الغرض | Purpose من إستخدام كلمة **delegate** ؟ 
 يتم استخدام  **delegate**  بشكل خاص من أجل تنفيذ الأحداث وطرق  معاودة الاتصال.**call-back** methods .
 
 
 
  &nbsp;
 
-## بناء كلمة **Syntax of delegate**
+## البناء | Syntax  للكلمة **delegate** 
 >  يمكن **delegate** أن يشير إلى method لها نفس توقيع **delegate**. على سبيل المثال،
  <div dir=ltr>
 
@@ -48,7 +48,7 @@ public delegate string MyDelegate (string s);
 
  &nbsp;
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example </p>  
 
  > ![Sysntax goto](https://aspblogs.blob.core.windows.net/media/zeeshanhirani/WindowsLiveWriter/DelegatesinC3.0_11DC8/image_2.png
 )

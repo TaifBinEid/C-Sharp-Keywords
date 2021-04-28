@@ -4,15 +4,15 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **private** 
-  * بناء كلمة **Syntax of private** 
-  * مثال  
+  *  مفهوم | Concept   للكلمة **private** 
+  * البناء | Syntax  للكلمة **private** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **private** 
+  ##  مفهوم | Concept   للكلمة **private** 
 الكلمة الأساسية **private** هي معدل أي تعدل على وصول الأعضاء، 
 **private** هو مستوى الوصول الأقل سماحًا. يمكن الوصول إلى الأعضاء الخاصين فقط داخل جسم الفصل class body  أو الهيكل الذي تم الإعلان عنه فيه مثل داله .
 
@@ -22,7 +22,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of private**
+## البناء | Syntax  للكلمة **private** 
 
 <div dir= ltr>
 
@@ -38,7 +38,7 @@ private string name ="taif;
   &nbsp;
 
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example  </p>  
 
 <div dir= ltr>
 

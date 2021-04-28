@@ -4,15 +4,15 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **protected** 
-  * بناء كلمة **Syntax of protected** 
-  * مثال  
+  * مفهوم | Concept   للكلمة **protected** 
+  * البناء | Syntax  للكلمة**protected** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **protected** 
+  ## مفهوم | Concept   للكلمة **protected** 
 الكلمة الأساسية **protected** هي معدل أي تعدل على وصول الأعضاء، 
 يمكن الوصول إلى member **protected**  ضمن class     ومن سيرث من هذا ال class  أي الفئة المشتقة.
 
@@ -20,7 +20,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of protected**
+## البناء | Syntax  للكلمة**protected** 
 
 <div dir= ltr>
 
@@ -36,7 +36,7 @@ protected string name ="taif;
   &nbsp;
 
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example  </p>  
 
 <div dir= ltr>
 

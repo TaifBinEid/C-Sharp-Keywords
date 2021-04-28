@@ -4,21 +4,21 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **virtual** 
-  * بناء كلمة **Syntax of virtual** 
-  * مثال  
+  * مفهوم | Concept   للكلمة **virtual** 
+  *  البناء | Syntax  للكلمة **virtual** 
+  * مثال | Example  
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **virtual** 
+  ## مفهوم | Concept   للكلمة **virtual** 
 تُستخدم الكلمة الأساسية **virtual** لتعديل طريقة أو خاصية أو حدث تم تعريفه في الفئة الأساسية base class    والسماح بتعديلها في الفئة المشتقة  derived class. 
 
 
  &nbsp;
 
-## بناء كلمة **Syntax of virtual**
+## البناء | Syntax  للكلمة **virtual** 
 
 <div dir= ltr>
 
@@ -34,7 +34,7 @@ public virtual void Test() { Console.WriteLine("Print");
   &nbsp;
 
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example </p>  
 
 <div dir= ltr>
 

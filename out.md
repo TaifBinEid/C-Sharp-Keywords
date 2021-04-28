@@ -4,21 +4,21 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **out** 
-  * الغرض من استعمال كلمة **out** 
-  * بناء كلمة **Syntax of out** 
-  * مثال  
+  *   مفهوم | Concept   للكلمة  **out** 
+  * الغرض | Purpose من إستخدام كلمة **out** 
+  * البناء | Syntax  للكلمة **out** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **out** 
+  ##  مفهوم | Concept   للكلمة  **out** 
 **out** عبارة عن كلمة أساسية في ***C #*** تُستخدم لتمرير مدخلات العملية  إلى العمليات method كنوع مرجعي .
  
  &nbsp;
 
-##  الغرض من استعمال كلمة **out** 
+##  الغرض | Purpose من إستخدام كلمة **out** 
 يتم استخدامه بشكل عام عندما تقوم العملية بإرجاع قيم متعددة. لا يقوم  **out**  بتمرير الخاصية.
 
 
@@ -28,7 +28,7 @@
 
  &nbsp;
 
-## بناء كلمة **Syntax of out**
+## البناء | Syntax  للكلمة **out** 
  <div dir=ltr>
 
 ```C#
@@ -46,7 +46,7 @@ out int number ;
 
  &nbsp;
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example  </p>  
 
   &nbsp;
   > ![example out](https://i2.wp.com/dailydotnettips.com/wp-content/uploads/2017/11/Ref-Implementation.jpg?fit=1156%2C561&ssl=1

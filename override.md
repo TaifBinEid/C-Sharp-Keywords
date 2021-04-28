@@ -4,22 +4,22 @@
 
 ##  <p style="color: #c67ace">الفهرس </p>
 
-  *  معنى كلمة  **override** 
-  * بناء كلمة **Syntax of override** 
-  * مثال  
+  * مفهوم | Concept   للكلمة  **override** 
+  *   البناء | Syntax  للكلمة **override** 
+  * مثال | Example   
 
  
  &nbsp;
 
 
-  ##  معنى كلمة  **override** 
+  ##  مفهوم | Concept   للكلمة  **override**
 
 تُستخدم الكلمة الأساسية **override**  للفئة المشتقة  أو تعديل داله افتراضية / أو حدث من فئة أساسية   class إلى فئة مشتقة  derived class. 
 
 
  &nbsp;
 
-## بناء كلمة **Syntax of override**
+##  البناء | Syntax  للكلمة **override** 
 
 <div dir= ltr>
 
@@ -34,7 +34,7 @@ public override void printInfo(){}
   &nbsp;
 
 
-# <p style="color: #c67ace">مثال </p>  
+# <p style="color: #c67ace">مثال | Example  </p>  
 
 <div dir= ltr>
 
